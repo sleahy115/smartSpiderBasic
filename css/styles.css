@@ -1,7 +1,154 @@
-body {
-	background-color: pink;
+.calendar-pro-links {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	width: 87%;
+}
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
-.test {
-	color: blue;
+.headline {
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-feature-settings: liga;
+	font-size: 30px;
 }
+
+.home-text {
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	flex-direction: column;
+	margin-left: 20%;
+}
+
+.icon-img {
+	width: 75%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.icon-options {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	flex-wrap: wrap;
+}
+
+.icon-options img {
+	height: 127.99px; 
+	width: 157.05px;
+}
+
+.icon-text {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	font-size: 14px;
+	color: black;
+	font-weight: 900;
+	font-family: arial, sans-serif;
+}
+
+.links {
+	padding: 10px;
+	color: rgb(33,120,128);
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: arial, sans-serif;
+	font-weight: 400;
+}
+
+.links a {
+	text-decoration: none;
+}
+
+.links a:visited {
+	color: rgb(33,120,128);
+	text-decoration: none;
+}
+
+.links a:hover {
+	color: lightgray;
+}
+
+.logo img {
+	height: 130px;
+	width: 266px;
+}
+
+.main-block {
+	display: flex;
+	align-content: space-around;
+}
+
+.main-img {
+	width: 100%;
+	padding-left: 1%;
+	padding-right: 1%;
+
+}
+
+.main-block {
+	display: flex;
+	justify-content: center;
+}
+
+.main-block input {
+	background-color: lightgray;
+	margin-top: 15px;
+	margin-bottom: 15px;	
+}
+
+.main-block img {
+	height: 41px;
+	width: 31px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.paragraph {
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 14px;
+	word-wrap: break-word;
+}
+
+.search-box {
+	background-color: lightgrey;
+}
+
+.social {
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+.social-logos {
+	height: 46px;
+	width: 46px;
+}
+
+.spider-logo-bottom {
+	padding-left: 35%;
+	padding-right: 35%;
+}
+
+.sponsers {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-around;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+
+
