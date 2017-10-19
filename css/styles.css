@@ -1,8 +1,9 @@
 .ask {
 	display: flex;
-	justify-content: space-evenly;
-	width: 50%;
-	margin-left: 20%;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 16px;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .ask-img {
@@ -10,7 +11,10 @@
 	width: 50%;
 	margin-left: 20%;
 	padding: 3%;
+}
 
+.bold {
+	font-weight: 900;
 }
 
 .calendar-pro-links {
