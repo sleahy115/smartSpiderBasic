@@ -31,6 +31,13 @@
 	font-weight: 900;
 }
 
+.bottom-footer {
+	background-color: rgb(33,120,128);
+	color: white;
+	justify-content: center; ;
+	display: flex;
+}
+
 .calendar-pro-links {
 	display: flex;
 	justify-content: space-evenly;
@@ -38,6 +45,8 @@
 	margin-top: 1%;
 	width: 100%;
 }
+
+
 .header {
 	display: flex;
 	flex-direction: row;
@@ -99,17 +108,28 @@
 	font-weight: 400;
 }
 
-.links a {
+.links-bottom {
+	padding: 10px;
+	color: rgb(33,120,128);
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: arial, sans-serif;
+	font-weight: 400;
+	display: flex;
+	justify-content: space-around;
+}
+
+.links, .links-bottom a {
 	color: color: rgb(33,120,128); 
 	text-decoration: none;
 }
 
-.links a:visited {
+.links, .links-bottom a:visited {
 	color: rgb(33,120,128);
 	text-decoration: none;
 }
 
-.links a:hover {
+.links, .links-bottom a:hover {
 	color: lightgray;
 }
 
@@ -193,6 +213,8 @@
 .spider-logo-bottom {
 	padding-left: 35%;
 	padding-right: 35%;
+	height: 136px;
+	width: 278px;
 }
 
 .sponsers {
@@ -201,8 +223,8 @@
 	flex-wrap: wrap;
 	align-content: center;
 	justify-content: space-around;
-	padding-left: 25%;
-	padding-right: 25%;
+	padding-left: 20%;
+	padding-right: 20%;
 }
 
 
