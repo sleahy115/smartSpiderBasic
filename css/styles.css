@@ -42,6 +42,7 @@
 	width: 50%;
 	flex-direction: column;
 	margin-left: 20%;
+	line-height: 150%;
 }
 
 .icon-img {
@@ -108,14 +109,6 @@
 	align-content: space-around;
 }
 
-.main-img {
-	width: 100%;
-	padding-left: 1%;
-	padding-right: 1%;
-	height: 60%;
-
-}
-
 .main-block {
 	display: flex;
 	justify-content: center;
@@ -128,10 +121,14 @@
 }
 
 .main-block img {
-	height: 41px;
-	width: 31px;
+	height: 5%;
+	width: 5%;
 	margin-top: 15px;
 	margin-bottom: 15px;
+}
+
+.main-img {
+	width: 100%;
 }
 
 .paragraph {
@@ -142,6 +139,7 @@
 }
 
 .search-box {
+	color: rgb(33,120,128);
 	background-color: lightgrey;
 }
 
