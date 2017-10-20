@@ -152,9 +152,31 @@
 	word-wrap: break-word;
 }
 
+.rsvp {
+	background-color: rgb(33,120,128);
+	color: white;
+	width: 15%;
+	height: 8%;
+	padding: 1%;
+	text-decoration: none; 
+	font-family: Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
+	text-transform: uppercase;
+	margin-left: 25%;
+}
+
+.rsvp a:clicked {
+	text-decoration: none;
+}
+
 .search-box {
 	color: rgb(33,120,128);
 	background-color: lightgrey;
+}
+
+.slideshow {
+	display: flex;
+	align-items: center;
+	padding-left: 25%;
 }
 
 .social {
