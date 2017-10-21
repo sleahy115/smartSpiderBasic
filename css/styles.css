@@ -34,8 +34,14 @@
 .bottom-footer {
 	background-color: rgb(33,120,128);
 	color: white;
-	justify-content: center; ;
-	display: flex;
+	width: 100%;
+}
+
+.bottom-footer a, p {
+	color: white;
+	display: inline-flex;
+	padding-right: 10%;
+	padding-left: 10%;
 }
 
 .calendar-pro-links {
