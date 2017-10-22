@@ -98,11 +98,20 @@
 	width: 100%;
 }
 
+.category-links {
+	display: flex;
+	margin-left: 10%;
+}
+
 .checkout {
 	margin-left: 25%;
 	margin-right: 25%;
 	margin-top: 6%;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.col {
+	flex: 1;
 }
 
 .fees {
