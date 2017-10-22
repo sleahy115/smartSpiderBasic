@@ -73,6 +73,13 @@
 	justify-content: center;
 }
 
+.headline-partners {
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+}
+
 .home-text {
 	display: flex;
 	justify-content: center;
@@ -129,6 +136,23 @@
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 16px;
     padding: 10px;
+}
+
+.info {
+	background-color: rgb(33,120,128);
+	color: white;
+	width: 5%;
+	height: 3%;
+	padding: 1%;
+	text-decoration: none; 
+	font-family: arial, sans-serif;
+	text-transform: uppercase;
+	margin-left: 25%;
+	position: absolute;
+	top: 373px;
+	left: 595px;
+	font-size: 16px;
+	font-weight: 900;
 }
 
 .links {
@@ -216,7 +240,7 @@
 	color: white;
 	width: 15%;
 	height: 8%;
-	padding: 1%;
+	padding: 1.5%;
 	text-decoration: none; 
 	font-family: Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
 	text-transform: uppercase;
