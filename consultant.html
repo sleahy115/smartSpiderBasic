@@ -25,68 +25,94 @@
 <div class="questions">
 	<p class="headline-questions">Just a few<br> quick questions</p>
 </div>
-<p class="headline">Consultant application</p>
-<p class="home-text">About you</p>
-<form>
-	<p>First name:</p>
+<p class="headline-partners">Consultant application</p>
+<p class="headline-form">About you</p>
+<form class="about-you">
+	<label>First name:</label>
+	<br>
 	<input type="text" name="first-name" placeholder="Enter first name">
-	<p>Last name:</p>
+	<br>
+	<br>
+	<label>Last name:</label>
+	<br>
 	<input type="text" name="last-name" placeholder="Enter last name">
-	<p>Email:</p>
+	<br>
+	<br>
+	<label>Email:</label>
+	<br>
 	<input type="email" name="email" placeholder="Enter email address">
-	<p>Work phone:</p>
+	<br>
+	<br>
+	<label>Work phone:</label>
+	<br>
 	<input type="number" name="work-phone" placeholder="Enter phone number">
 </form>
-<p class="home">About you company</p>
-<form>
-	<p>Company:</p>
+<p class="headline-form">About you company</p>
+<form class="about-you">
+	<label>Company:</label>
+	<br>
 	<input type="text" name="company" placeholder="Enter company">
-	<p>Work address:</p>
+	<br>
+	<br>
+	<label>Work address:</label>
+	<br>
 	<input type="text" name="work-address" placeholder="Enter work address">
-	<p>City:</p>
+	<br>
+	<br>
+	<label>City:</label>
+	<br>
 	<input type="text" name="city" placeholder="Enter city">
-	<p>State:</p>
+	<br>
+	<br>
+	<label>State:</label>
+	<br>
 	<input type="text" name="state" placeholder="NM">
-	<p>Zip code:</p>
+	<br>
+	<br>
+	<label>Zip code:</label>
+	<br>
 	<input type="number" name="zip-code" placeholder="Enter zip code">
 </form>
-<p class="home-text">Payment information</p>
-<p>Payment info</p>
-<p>Annual subscriber fee $525.00</p>
-<p>Gross reciepts tax 7.32% 38.39</p>
-<p>Total 563.39</p>
-<p>All subscriber fees are final and nonrefundable. Subscription is on an annual or monthlybasis and will renew automatically.</p>
-<p>Billing prefrence:</p>
-<form>
+<p class="headline-form">Payment information</p>
+<p class="payment">Payment info</p>
+<p class="payment-info">Annual subscriber fee<span class="space"></span>$525.00</p>
+<p class="payment-info">Gross reciepts tax 7.32%<span class="space"></span> 38.39</p>
+<p class="payment-info">Total<span class="space"></span>563.39</p>
+<p class="fees">All subscriber fees are final and nonrefundable. Subscription<br> is on an annual or monthly basis and will renew automatically.</p>
+<p class="headline-form">Billing prefrence:</p>
+<form class="bill-me">
 	<label>Bill me monthly-12 equal payments of 43.75</label>
 	<input type="radio" name="monthly" value="monthly">
 	<br>
 	<label>Bill me annually</label>
 	<input type="radio" name="annually" value="annually" checked="">
 </form>
-<p>gross reciepts tax of 7.32% applied on checkout</p>
-<form>
+<p class="fees">gross reciepts tax of 7.32% applied on checkout</p>
+<form class="bill-me">
 	<label>Promo code(optional)</label>
 	<input type="text" name="promo" placeholder="Enter promo code">
 	<br>
-	<label>I am over 21 years of age</label>
 	<input type="checkbox" name="age">
+	<label>I am over 21 years of age</label>
 	<br>
-	<label>I am NOT a product salesperson or multi-level marketer</label>
 	<input type="checkbox" name="not-sales">
+	<label>I am NOT a product salesperson or multi-level marketer</label>
 	<br>
-	<label>I have read and agree to all sections od the<a href="#">subscribers agreement</a>. By completing this application I agree to these rules and regulations.</label>
 	<input type="checkbox" name="agree">
+	<label>I have read and agree to all sections od the <a href="#">subscribers agreement</a>. By completing this application I agree to these rules and regulations.</label>
 </form>
-<p class="home-text">Create your account</p>
-<form>
+<p class="headline-form">Create your account</p>
+<form class="password">
 	<label>Your password(necessary to edit your profile)</label>
+	<br>
 	<input type="password" name="password" placeholder="Enter password">
 	<br>
+	<br>
 	<label>Confirm password:</label>
-	<input type="pass" name="confirm-password" placeholder="Confirm password">
+	<br>
+	<input type="password" name="confirm-password" placeholder="Confirm password">
 </form>
-<button>Checkout</button>
+<button class="checkout">Checkout</button>
 
 
 <div class="footer">
