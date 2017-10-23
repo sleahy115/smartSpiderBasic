@@ -83,11 +83,20 @@
 	width: 100%;
 }
 
-.bottom-footer a p {
-	color: white;
+.bottom-footer a, .bottom-footer p {
+    color: #0000FF;
 	display: inline-flex;
 	padding-right: 10%;
 	padding-left: 10%;
+	justify-content: space-around;
+}
+
+.bottom-footer p {
+	color: white;
+}
+
+.bottom-footer a:visited {
+	color: #0000FF;
 }
 
 .calendar-pro-links {
@@ -292,6 +301,8 @@
 	font-weight: 400;
 	display: flex;
 	justify-content: space-around;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
 .links a, .links-bottom a {
