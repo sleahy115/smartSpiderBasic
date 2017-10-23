@@ -1,8 +1,9 @@
 .about-1, .about-2 {
 	display: flex;
+	margin-bottom: 4%;
 }
 
-.about-1 p {
+.about-1 p, .about-2 p {
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     text-align: left;
     font-size: 14px;
@@ -285,6 +286,35 @@
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 16px;
     padding: 10px;
+}
+
+.image-join a {
+	position: absolute;
+	background-color: rgba(255,139,4, 0.7); 
+	overflow-wrap: break-word; 
+	color: white;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    top: 264px;
+    left: 732px;
+}
+
+.image-join p {
+	position: absolute;
+	background-color: rgba(255,139,4, 0.7); 
+	overflow-wrap: break-word; 
+	color: white;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    top: 100px;
+    left: 732px;
+}
+
+.image-join img {
+	height: 95px;
+	width: 117px;
 }
 
 .info {
