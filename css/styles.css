@@ -114,6 +114,10 @@
 	flex: 1;
 }
 
+.col-small {
+	flex: 0.3;
+}
+
 .contact-form {
 	margin: 25%;
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
@@ -377,7 +381,54 @@
 	margin-left: 25%;
 	font-size: 12px;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
 
+.pros {
+	display: flex;
+	margin-top: 30%;
+	margin-left: 10%;
+}
+
+.pros2 {
+	display: flex;
+	margin: 10%;
+}
+
+.pros img, .pros2 img {
+	height: 151px;
+	width: 151px;
+}
+
+.pro-company {
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 14px;
+    line-height: 17px;
+    word-wrap: break-word;
+}
+
+.pro-email, .pro-email a {
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 14px;
+    line-height: 17px;
+    word-wrap: break-word;
+    color: #0000FF;
+}
+
+
+.pro-name, .pro-name a {
+	color: #0000FF;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 25px;
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+.pro-name a:clicked, .pro-email a:clicked {
+	color: #800080;
+	text-decoration: none;
 }
 
 .questions {
