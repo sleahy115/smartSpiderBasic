@@ -1,3 +1,20 @@
+.about-1, .about-2 {
+	display: flex;
+}
+
+.about-1 p {
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 14px;
+    line-height: 17px;
+    word-wrap: break-word;
+}
+
+.about-1 img, .about-2 img {
+	width: : 332px;
+	height: : 295px;
+}
+
 .about-you {
 	margin-left: 25%;
 	margin-right: 25%;
@@ -121,6 +138,10 @@
 
 .col {
 	flex: 1;
+}
+
+.col-large {
+	margin: 1%;
 }
 
 .col-small {
@@ -517,7 +538,7 @@
 
 .submit {
 	font: 13.3333px Arial;
-	margin-right: 14%;
+	margin-right: 20%;
 	margin-top: 1%;
 }
 
