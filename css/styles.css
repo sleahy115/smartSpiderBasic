@@ -379,7 +379,7 @@
 	color: lightgray;
 }
 
-.login {
+#login, #login a:visited {
 	color: rgb(253,139,4);
 	font-weight: 600;
 }
@@ -391,6 +391,9 @@
     width: 30%;
     margin-bottom: 5%;
     background-color: lightgrey;
+   	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 14px;
 }
 
 .login-form {
