@@ -291,12 +291,13 @@
 }
 
 .icon-options img {
-	height: 127.99px; 
-	width: 157.05px;
+	height: 102%; 
+	width: 65%;
+	margin-left: 19%;
 }
 
 .icon-text {
-	width: 80%;
+	width: 92%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
@@ -326,8 +327,8 @@
 .image p {
 	position: absolute;
 	background-color: rgba(255,139,4, 0.7); 
-	top: 148px;
-	left: 557px;
+	top: 23%;
+	left: 56%;
 	width: 41%;
 	overflow-wrap: break-word; 
 	color: white;
@@ -362,16 +363,16 @@
 .info {
 	background-color: rgb(33,120,128);
 	color: white;
-	width: 5%;
-	height: 3%;
+	width: 5.5%;
+	height: 4%;
 	padding: 1%;
 	text-decoration: none; 
 	font-family: arial, sans-serif;
 	text-transform: uppercase;
 	margin-left: 25%;
 	position: absolute;
-	top: 317px;
-	left: 506px;
+	top: 62%;
+	left: 48%;
 	font-size: 16px;
 	font-weight: 900;
 }
