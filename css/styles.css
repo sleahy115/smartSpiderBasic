@@ -149,6 +149,15 @@
 	flex: 0.3;
 }
 
+.contact {
+	line-height: 26px;
+    color: #25787F;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 14px;
+	word-wrap: break-word;
+}
+
 .contact-form {
 	margin: 25%;
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
