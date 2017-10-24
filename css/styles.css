@@ -287,9 +287,9 @@
 .image p {
 	position: absolute;
 	background-color: rgba(255,139,4, 0.7); 
-	top: 188px;
-	left: 704px;
-	width: 39%;
+	top: 148px;
+	left: 557px;
+	width: 41%;
 	overflow-wrap: break-word; 
 	color: white;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
@@ -337,8 +337,8 @@
 	text-transform: uppercase;
 	margin-left: 25%;
 	position: absolute;
-	top: 373px;
-	left: 595px;
+	top: 317px;
+	left: 506px;
 	font-size: 16px;
 	font-weight: 900;
 }
