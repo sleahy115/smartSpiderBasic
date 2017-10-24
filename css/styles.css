@@ -375,6 +375,25 @@
 	font-weight: 600;
 }
 
+.login-form input {
+	padding: 5px;
+    border: 5px;
+    border-color: black;
+    width: 30%;
+    margin-bottom: 5%;
+    background-color: lightgrey;
+}
+
+.login-form {
+	margin-left: 35%;
+	margin-bottom: 9%;
+}
+
+.login-form a {
+	color: #0000FF;
+    text-decoration: underline;
+}
+
 .logo img {
 	height: 130px;
 	width: 266px;
@@ -530,6 +549,12 @@
 .search-box {
 	color: rgb(33,120,128);
 	background-color: lightgrey;
+}
+
+.signin {
+	color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
 }
 
 .slideshow {
