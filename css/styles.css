@@ -653,6 +653,23 @@
 	padding-right: 20%;
 }
 
+.starthere {
+	background-color: rgb(33,120,128);
+	color: white;
+	width: 5.5%;
+	height: 4%;
+	padding: 1%;
+	font-family: arial, sans-serif;
+	text-transform: uppercase;
+	margin-left: 25%;
+	font-size: 16px;
+	font-weight: 900;
+}
+
+.starthere a, .starthere a:clicked {
+	text-decoration: none; 
+}
+
 .submit {
 	font: 13.3333px Arial;
 	margin-right: 20%;
