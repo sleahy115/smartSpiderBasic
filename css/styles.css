@@ -329,11 +329,12 @@
 	background-color: rgba(255,139,4, 0.7); 
 	top: 23%;
 	left: 56%;
-	width: 41%;
+	width: 41.5%;
+	height: 34%;
 	overflow-wrap: break-word; 
 	color: white;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     padding: 10px;
 }
 
@@ -371,7 +372,7 @@
 	text-transform: uppercase;
 	margin-left: 25%;
 	position: absolute;
-	top: 62%;
+	top: 64%;
 	left: 48%;
 	font-size: 16px;
 	font-weight: 900;
@@ -653,6 +654,20 @@
 	position: relative;
 	z-index: 1;
 }
+
+@media screen and (max-width:800px) {
+	.hamburger {
+		background-color: blue;
+	}
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 2048px) {
+    .hamburger {
+		display: none;
+	}
+}	
+
 
 
 
