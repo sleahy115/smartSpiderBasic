@@ -180,6 +180,9 @@
     width: 65%;
 }
 
+.countdown {
+	display: flex;
+}
 
 .fees {
 	line-height: 14px;
@@ -266,11 +269,11 @@
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 16px;
     padding: 10px;
-    top: 33%;
+    top: 32%;
     left: 58%;
     display: inline-flex;
     flex-direction: row;
-    width: 39.5%;
+    width: 40.5%;
     justify-content: center;
 }
 
@@ -313,11 +316,11 @@
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 16px;
     padding: 10px;
-    top: 50%;
+    top: 48%;
     left: 58%;
     display: inline-flex;
     flex-direction: row;
-    width: 39.5%;
+    width: 40.5%;
     justify-content: space-around;
 }
 
@@ -343,7 +346,6 @@
 .image-container {
 	position: relative;
 	width: 100%;
-	background-color: rgba(255,139,4, 0.7);
 }
 
 .image-join p {
@@ -378,6 +380,10 @@
 	left: 48%;
 	font-size: 16px;
 	font-weight: 900;
+}
+
+.join {
+	background-color: rgba(255,139,4, 0.7); 
 }
 
 .links {
@@ -651,6 +657,10 @@
 	font: 13.3333px Arial;
 	margin-right: 20%;
 	margin-top: 1%;
+}
+
+ul {
+	list-style: none;
 }
 
 .under-img {
