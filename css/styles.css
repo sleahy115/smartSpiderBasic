@@ -656,8 +656,31 @@
 }
 
 @media screen and (max-width:800px) {
+	.image p {
+		font-size: 10px;
+		width: 40.5%;
+	}
+
+	.info {
+		width: 7.5%;
+		height: 5%;
+	}
+
 	.hamburger {
-		background-color: blue;
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.links {
+		display: none;
+	}
+
+	.main-block input {
+		width: 20%;
+	}
+
+	.slideshow {
+		padding-left: 13%;
 	}
 
 }
